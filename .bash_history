@@ -115,3 +115,45 @@ git add .
 git commit -m " 101-rot13"
 git push
 exit 
+git remote add origin https://github.com/your-username/alx-low_level_programming.git
+git remote add origin https://github.com/iCelf08/alx-low_level_programming.git
+git remote origin https://github.com/iCelf08/alx-low_level_programming.git 
+ls
+cd root
+git remote origin https://github.com/iCelf08/alx-low_level_programming.git
+git remote add origin https://github.com/iCelf08/alx-low_level_programming.git
+git status
+git add .
+git status
+ls
+cd alx-system_engineering-devops/
+ls
+cd ..
+cd alx-low_level_programming/
+LS
+ls
+cd ..
+git commit -m "0x00-hello_world"
+git push
+git push --f
+git push with --force-lease
+git push -f
+git push --set-upstream origin master
+clear
+git clone https://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/iCelf08/alx-low_level_programming.git
+git push
+ls
+mv alx-low_level_programming/ ALX-Low
+ls
+git clone https://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/iCelf08/alx-low_level_programming.git
+ls
+git clone https://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/iCelf08/alx-low_level_programming.git
+git remote add origin https://github.com/iCelf08/alx-low_level_programming.git
+git status
+git add .
+git status
+git commit -m "ALX-low"
+git push 
+git push --set-upstream origin master
+clear 
+exit
