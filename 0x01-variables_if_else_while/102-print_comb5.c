@@ -8,13 +8,13 @@ int main(void)
 int n, m;
 for (n = 0; n < 99; n++)
 {
-for (m = 0; m < 99; m++)
+for (m = n; m < 99; m++)
 {
 putchar('0' + (n / 10));
 putchar('0' + (n % 10));
 putchar(' ');
 putchar('0' + (m / 10));
- putchar('0' + (m % 10));
+putchar('0' + (m % 10));
 if (n != 98 || m != 99)
 {
 putchar(',');
