@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main- program that printf combination of single number
+*main - program that printf combination of single number
 *Return:0 (success)
 */
 int main(void)

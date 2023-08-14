@@ -10,6 +10,7 @@ for (n = 0; n < 10; n++)
 {
 for (m = n + 1; m < 10; m++)
 {
+for (l = m + 1; l < 10; l++)
 putchar('0' + n);
 putchar('0' + m);
 if (n != 8 || m != 9)
