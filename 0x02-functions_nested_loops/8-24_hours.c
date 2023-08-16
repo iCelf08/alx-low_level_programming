@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* print_minutes_of_day - Function that prints every minute of the day
+* jack_bauer - Function that prints every minute of the day
 * from 00:00 to 23:59
 */
-void print_minutes_of_day(void)
+void jack_bauer(void)
 {
 int hour, minute;
 for (hour = 0; hour < 24; hour++)
