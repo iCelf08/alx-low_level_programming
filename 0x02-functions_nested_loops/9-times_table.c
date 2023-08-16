@@ -13,12 +13,10 @@ int result = i * j;
 if (j == 0)
 _putchar('0');
 else
-{
-if (result < 10)
-_putchar(' ');
 _putchar(',');
 _putchar(' ');
-}
+if (result < 10)
+_putchar (' ');
 _putchar((result / 10) + '0');
 _putchar((result % 10) + '0');
 }
