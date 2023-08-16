@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+* main - program that prints the alphabets
+*
+* Return 0: (success)
+*/
+int main(void)
+{
+char i;
+for (i = 'a'; i <= 'z'; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
+return (0);
+}
