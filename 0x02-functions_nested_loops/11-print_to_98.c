@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *print_to_98 - program that prints natural numbers
- *@n: from n to 98
+*print_to_98 - program that prints natural numbers
+*@n: from n to 98
 */
 void print_to_98(int n)
 {
@@ -23,9 +23,7 @@ for (i = n; i >= 98; i--)
 {
 printf("%d", i);
 if (i != 98)
-{
 printf(", ");
-}
 }
 printf("\n");
 }
