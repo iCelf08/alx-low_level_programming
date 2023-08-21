@@ -4,12 +4,9 @@
 *@str: pointer value
 */
 void _puts(char *str)
-{
-char c;
-c = *str;
-for (; *str != '\0'; str++)
-{
-_putchar(c);
+while (*str != '\0')
+_putchar(*str);
+str++;
 }
 _putchar('\n');
 }
