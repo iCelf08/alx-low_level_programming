@@ -5,12 +5,9 @@
 */
 void _puts(char *str)
 {
-char c;
-c = *str;
-while (*str != '\0')
+for (; *str != '\0'; *str++)
 {
 _putchar(c);
-str++;
 }
 _putchar('\n');
 }
