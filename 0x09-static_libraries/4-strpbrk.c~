@@ -1,0 +1,18 @@
+#include "main.h"
+char *strpbrk(const char *str, const char *charset) {
+  const char *s1 = str;
+  const char *s2;
+
+  while (*s1 != '\0') {
+    s2 = charset;
+    while (*s2 != '\0') {
+      if (*s1 == *s2) {
+	return (char *)s1;
+      }
+      s2++;
+    }
+    s1++;
+  }
+
+  return NULL;
+}
