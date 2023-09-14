@@ -7,7 +7,7 @@
  *@int: pointer to print in regularor hexadecimal
  *Return: nothing
  */
-void array_iterator(int *array, size_t size, void((*action)(int))
+void array_iterator(int *array, size_t size, void((*action)(int)))
 {
 unsigned int i;
 if (array == NULL || action == NULL)
