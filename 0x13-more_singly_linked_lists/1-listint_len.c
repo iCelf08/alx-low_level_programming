@@ -7,10 +7,15 @@
  */
 size_t listint_len(const listint_t *h)
 {
-size_t a = 0;
-do {
+size_t a = 1;
+if (h != NULL)
+{
 a++;
 h = h->next;
-} while (h != NULL);
+}
+else
+{
+return (0);
+}
 return (a);
 }
