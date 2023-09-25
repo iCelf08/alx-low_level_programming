@@ -5,7 +5,7 @@
  *add_nodeint_end - function that add node at the end
  *@head: double pointer at linked list node to be added
  *@n: data of node to be added
- *Return : adress of new element
+ *Return: adress of new element
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
