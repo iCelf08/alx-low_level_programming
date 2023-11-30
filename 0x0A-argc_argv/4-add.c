@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
+#include "main.h"
+/**
+ *main- function that add positive numbers
+ *@argc:number of arguments
+ *@argv:array of arrguments
+ *Return:1 for success, 0 for Error
+ */
+int main(int argc, char **argv)
+{
+int i, sum;
+sum = 0;
+if (argc <= 1)
+printf("0\n");
+for (i = 0; i < argc; i++)
+{
+if (!isdigit(*argv[i]))
+{
+printf("Error\n");
+return (1);
+}
+else
+{
+sum += atoi(argv[i]);
+printf("%d\n", sum);
+}
+}
+return (0);
+}
