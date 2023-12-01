@@ -14,7 +14,7 @@ unsigned long int i;
 unsigned char comma_flag = 0;
 if (ht == NULL)
 return;
-printf("{")
+printf("{");
 for (i = 0; i < ht->size; i++)
 {
 if (ht->array[i] != NULL)
